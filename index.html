@@ -2,71 +2,64 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0, maximum-scale=1.0
-    minimum-scale=1.0">
-    <title>Layout Basico</title>
-
-    <link rel="stylesheet" href="css/estilos.css">
-
-    <link rel="stylesheet" href="css/estilos.css">
-
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Layout con Flexbox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <div class="contenedor">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a>
-                    <li><a href="#">Acerca de</a>
-                    <li><a href="#">Gustos</a>
-                    <li><a href="#">Contacto</a>        
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.jpg" alt="" width="200px">
+        </div>
 
-                    </li>
-                </ul>
-            </nav>
-
-
-        </header>
-
-        <section class="main">
-            <div class="imagen">
-
-                <img src="img/videojuegos.jpg" width="750">
-
-
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <section class="main">
+        <article>
+            <div class="thumb">
+                <img src="imagenes/3.jpg" alt=""   >
             </div>
-            <section class="posts">
-                <article>
-                    <h2>Titulo del Articulo</h2>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                         id est laborum."</p>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                             id est laborum."</p>
-                </article>
-            </section>
-        </section>
+
+            <h2>Titulo del Articulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium volutpat leo ut cursus.
+                Curabitur erat quam, semper in posuere ut, dapibus vitae elit. Sed pellentesque, lacus ut rhoncus pretium, 
+                lacus massa porttitor orci, id tincidunt enim ligula in lacus. Duis eget lorem pellentesque, consequat dolor in, iaculis ligula. Suspendisse potenti. Aliquam erat volutpat. Curabitur libero elit, viverra ut dictum imperdiet, placerat nec libero. Nam blandit libero quis purus varius, auctor pharetra libero tempus. Duis ligula risus, ultricies eget ipsum vitae, 
+                mollis aliquet erat. Pellentesque scelerisque condimentum nunc, vitae gravida lorem suscipit ac.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium volutpat leo ut cursus.
+                    Curabitur erat quam, semper in posuere ut, dapibus vitae elit. Sed pellentesque, lacus ut rhoncus pretium, 
+                    lacus massa porttitor orci, id tincidunt enim ligula in lacus. Duis eget lorem pellentesque, consequat dolor in, iaculis ligula. Suspendisse potenti. Aliquam erat volutpat. Curabitur libero elit, viverra ut dictum imperdiet, placerat nec libero. Nam blandit libero quis purus varius, auctor pharetra libero tempus. Duis ligula risus, ultricies eget ipsum vitae, 
+                    mollis aliquet erat. Pellentesque scelerisque condimentum nunc, vitae gravida lorem suscipit ac.</p>
+
+
+        </article>
+    </section>
     <aside>
-        <div class="widget">
-            <h3 class="titulo">Articulos destacados</h3>
-            <ul>
-                <li><a href="#">Lorem ipsum dolor</a></li>
-                <li><a href="#">Lorem ipsum dolor</a></li>
-                <li><a href="#">Lorem ipsum dolor</a></li>
-                <li><a href="#">Lorem ipsum dolor</a></li>
-                <li><a href="#">Lorem ipsum dolor</a></li>
-            </ul>
+        <div class="ad">
+            <p>AD</p>
         </div>
-        <div class="widget">
-            <h3 class="titulo">Informacion</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="ad">
+            <p>AD</p>
         </div>
-</aside>
-<footer>
-    <p>Emanuel Rangel 2020 - Todos los derechos Reservados</p>
-</footer>
-    </div>
+    </aside>
+    <footer>
+        <div class="autor">
+            <p>Creado por Emanuel Rangel Luna</p>
+        </div>
+
+        <div class="redes-sociales">
+            <a href="http://www.facebook.com">Facebook</a>
+            <a href="http://www.twitter.com">Twitter</a>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
